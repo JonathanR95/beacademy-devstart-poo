@@ -14,6 +14,6 @@ class IndexController
 
     public function loginAction():void
     {
-        include dirname(__DIR__).'/view/index/login.php';
+        include dirname(__DIR__).'/View/index/login.php';
     }
 }
